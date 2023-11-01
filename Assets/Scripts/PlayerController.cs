@@ -7,18 +7,35 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] ColorSpere Player;
-    int enumCount;
+    ColorSpere player;
+    bool isFire; 
 
     private void Start()
     {
-        enumCount = Enum.GetValues(typeof(SpereColor)).Length;
         RandomSpere();
     }
     void RandomSpere()
     {
-        
-        int rand = UnityEngine.Random.Range(0, enumCount);
-        Player.ColorChange((SpereColor)rand);
+        player = Instantiate(Player);
+        player.transform.SetParent(this.gameObject.transform,false);
+        isFire = false;
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && !isFire)
+        {
+            player.spereIsFire = true;
+            isFire = true;
+            player.transform.SetParent(null);
+            StartCoroutine(InstantiateNewColorSpere());
+        }
+    }
+
+    IEnumerator InstantiateNewColorSpere()
+    {
+        yield return new WaitForSeconds(0.5f);
+        RandomSpere();
     }
 
 }

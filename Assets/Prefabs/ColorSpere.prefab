@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 1488928309180592023}
   - component: {fileID: 5162385967757632672}
   - component: {fileID: 4739605818601719403}
+  - component: {fileID: 5459508532525062091}
   m_Layer: 0
   m_Name: ColorSpere
-  m_TagString: Untagged
+  m_TagString: ColorSpere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +101,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -118,5 +119,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6969d47d06ccc524d8485b399f59ab2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spereRB: {fileID: 5459508532525062091}
   spereColor: 0
   spereRenderer: {fileID: 1488928309180592023}
+  spereIsFire: 0
+--- !u!54 &5459508532525062091
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177020669836509780}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

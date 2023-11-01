@@ -1,15 +1,24 @@
 using ENUMS;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorSpere : MonoBehaviour
 {
+    [SerializeField] Rigidbody spereRB;
+    [SerializeField] Transform parent;
     public SpereColor spereColor;
     public Renderer spereRenderer;
+    public bool spereIsFire;
+    int enumCount;
+    int rand;
+    float speed = 7f;
     void Start()
     {
-        ColorChange(spereColor);
+        enumCount = Enum.GetValues(typeof(SpereColor)).Length;
+        rand = UnityEngine.Random.Range(0, enumCount);
+        ColorChange((SpereColor)rand);
     }
 
     public void ColorChange(SpereColor spereColor)
@@ -33,5 +42,26 @@ public class ColorSpere : MonoBehaviour
                 break;
         }
 
+    }
+
+    private void FixedUpdate()
+    {
+        if(spereIsFire)
+        {
+            spereRB.velocity = (Vector3.up * speed);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (spereIsFire)
+        {
+            if (other.CompareTag("ColorSpere"))
+            {
+                spereIsFire = false;
+                spereRB.velocity = Vector3.zero;
+                this.transform.SetParent(GameManager.Instance.SpereParentTransform());
+            }
+        }
     }
 }
