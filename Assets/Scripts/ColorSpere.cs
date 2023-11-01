@@ -52,16 +52,19 @@ public class ColorSpere : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+
+    private void OnCollisionEnter(Collision collision)
     {
         if (spereIsFire)
         {
-            if (other.CompareTag("ColorSpere"))
+            if (collision.transform.CompareTag("ColorSpere"))
             {
                 spereIsFire = false;
                 spereRB.velocity = Vector3.zero;
+                spereRB.constraints = RigidbodyConstraints.FreezeAll;
                 this.transform.SetParent(GameManager.Instance.SpereParentTransform());
             }
         }
     }
+
 }
