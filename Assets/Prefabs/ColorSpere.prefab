@@ -122,12 +122,14 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 128
-  neightboorColorSpere: []
+  neighborColorSpere: []
   inLevel: 0
   spereRB: {fileID: 5459508532525062091}
-  parent: {fileID: 0}
   spereRenderer: {fileID: 1488928309180592023}
   spereIsFire: 0
+  checkRadius: 0.5
+  checkDistance: 0.4
+  nearSpere: []
   spereCastRadius: 0.1
 --- !u!54 &5459508532525062091
 Rigidbody:

@@ -2,15 +2,15 @@ using ENUMS;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ColorSpere : MonoBehaviour
 {
     public LayerMask layer;
-    [SerializeField] List<ColorSpere> neightboorColorSpere = new List<ColorSpere>();
+    [SerializeField] List<ColorSpere> neighborColorSpere = new List<ColorSpere>();
     public bool inLevel;
     [SerializeField] Rigidbody spereRB;
-    [SerializeField] Transform parent;
     SpereColor color;
     public Renderer spereRenderer;
     public bool spereIsFire;
@@ -19,22 +19,18 @@ public class ColorSpere : MonoBehaviour
     float speed = 7f;
     [SerializeField]
     private float checkRadius;
+    [SerializeField]
+    private float checkDistance;
+    public List<ColorSpere> nearSpere = new List<ColorSpere>();
     void Start()
     {
         if (inLevel)
-            FindNeightbor();
+        {
+            FindNeighbor();
+        }
         enumCount = Enum.GetValues(typeof(SpereColor)).Length;
         rand = UnityEngine.Random.Range(0, enumCount);
         ColorChange((SpereColor)rand);
-    }
-
-    private void SetPosition()
-    {
-        Vector3 target = parent.position;
-        Vector3 pos = transform.position;
-        Vector3 norm = target - pos;
-        Vector3 force = norm.normalized * speed;
-        spereRB.AddForce(force);
     }
 
     public void ColorChange(SpereColor spereColor)
@@ -70,28 +66,41 @@ public class ColorSpere : MonoBehaviour
         {
             spereRB.velocity = (Vector3.up * speed);
         }
+        FindNeighbor();
     }
 
     Ray ray;
     public float spereCastRadius = 0.1f;
-    Collider[] hits;
-    public void FindNeightbor()
+    private List<Collider> hits = new List<Collider>();
+  
+ 
+    private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("ColorSpere"))
+        {
+            if (other.gameObject == gameObject) return;
+            
+            
+          
+        }
+    }
+    public void FindNeighbor()
+    {
+        Debug.Log("Check Neighbours");
         layer = LayerMask.NameToLayer("ColorSpere");
 
-        hits = Physics.OverlapSphere(transform.position, transform.localScale.x * .5f);
-        if (hits.Length > 0)
+        hits = Physics.OverlapSphere(transform.position, checkRadius).Where(t=>Vector3.Distance(t.transform.position, transform.position) < checkDistance).ToList();
+        if (hits.Count > 0)
         {
+            if (hits.Contains(GetComponent<Collider>()))
+            {
+                hits.Remove(GetComponent<Collider>());
+            }
             foreach (var item in hits)
             {
-
-                if (item.gameObject.name != parent.gameObject.name && item.gameObject.name != this.gameObject.name)
+                if (!neighborColorSpere.Contains(item.transform.GetComponent<ColorSpere>()))
                 {
-                    if (!neightboorColorSpere.Contains(item.transform.GetComponent<ColorSpere>()))
-                    {
-                        neightboorColorSpere.Add(item.transform.GetComponent<ColorSpere>());
-
-                    }
+                    neighborColorSpere.Add(item.transform.GetComponent<ColorSpere>());
                 }
             }
         }
@@ -116,9 +125,38 @@ public class ColorSpere : MonoBehaviour
                 spereRB.velocity = Vector3.zero;
                 spereRB.constraints = RigidbodyConstraints.FreezeAll;
                 this.transform.SetParent(GameManager.Instance.SpereParentTransform());
-                FindNeightbor();
+                FindNeighbor();
+
+                collision.transform.GetComponent<ColorSpere>().FindNeighbor();
+                nearSpere = new List<ColorSpere>();
+                GetNeighborColor(collision.transform.GetComponent<ColorSpere>(), color, nearSpere, collision.transform.GetComponent<ColorSpere>().neighborColorSpere);
+                print(nearSpere.Count);
+                if (nearSpere.Count >= 3)
+                {
+                    foreach (ColorSpere c in nearSpere)
+                    {
+                        Destroy(c.gameObject);
+                    }
+                    Destroy(gameObject);
+                }
             }
         }
     }
 
+
+    public void GetNeighborColor(ColorSpere colorSpere, SpereColor targetColor, List<ColorSpere> nearSpere, List<ColorSpere> neighborColorSpere)
+    {
+        
+        if (colorSpere == null || nearSpere.Contains(colorSpere)|| colorSpere.color != targetColor)
+        {
+            return;
+        }
+        
+        nearSpere.Add(colorSpere);
+      //  print(colorSpere.name);
+        foreach (var item in neighborColorSpere) { 
+            GetNeighborColor(item, targetColor, nearSpere, item.neighborColorSpere);
+            
+        }
+    }
 }
