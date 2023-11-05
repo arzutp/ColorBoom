@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5162385967757632672}
   - component: {fileID: 4739605818601719403}
   - component: {fileID: 5459508532525062091}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ColorSpere
   m_TagString: ColorSpere
   m_Icon: {fileID: 0}
@@ -119,11 +119,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6969d47d06ccc524d8485b399f59ab2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 128
+  neightboorColorSpere: []
+  inLevel: 0
   spereRB: {fileID: 5459508532525062091}
   parent: {fileID: 0}
-  spereColor: 0
   spereRenderer: {fileID: 1488928309180592023}
   spereIsFire: 0
+  spereCastRadius: 0.1
 --- !u!54 &5459508532525062091
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -176,8 +176,24 @@ PrefabInstance:
       value: ColorSpere (16)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -241,8 +257,24 @@ PrefabInstance:
       value: ColorSpere (18)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -306,8 +338,24 @@ PrefabInstance:
       value: ColorSpere (11)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -376,8 +424,24 @@ PrefabInstance:
       value: ColorSpere (21)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -451,8 +515,24 @@ PrefabInstance:
       value: ColorSpere (9)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -514,6 +594,22 @@ PrefabInstance:
     - target: {fileID: 3177020669836509780, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Name
       value: ColorSpere (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -582,8 +678,24 @@ PrefabInstance:
       value: ColorSpere (14)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -647,8 +759,24 @@ PrefabInstance:
       value: ColorSpere (15)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -720,6 +848,22 @@ PrefabInstance:
     - target: {fileID: 3177020669836509780, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Name
       value: ColorSpere (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -994,8 +1138,24 @@ PrefabInstance:
       value: ColorSpere (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1079,8 +1239,24 @@ PrefabInstance:
       value: ColorSpere (19)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1149,8 +1325,24 @@ PrefabInstance:
       value: ColorSpere (17)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1355,8 +1547,24 @@ PrefabInstance:
       value: ColorSpere (13)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1420,8 +1628,24 @@ PrefabInstance:
       value: ColorSpere (20)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1485,8 +1709,24 @@ PrefabInstance:
       value: ColorSpere (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1559,6 +1799,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColorSpere (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
       value: 126
@@ -1621,8 +1877,24 @@ PrefabInstance:
       value: ColorSpere (5)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1686,8 +1958,24 @@ PrefabInstance:
       value: ColorSpere (10)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1751,8 +2039,24 @@ PrefabInstance:
       value: ColorSpere (12)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -1865,6 +2169,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColorSpere (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
       value: 126
@@ -1948,7 +2268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 251076497296530361, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -0.659
       objectReference: {fileID: 0}
     - target: {fileID: 251076497296530361, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1987,8 +2307,24 @@ PrefabInstance:
       value: ColorSpere (7)
       objectReference: {fileID: 0}
     - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: spereColor
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
@@ -2050,6 +2386,22 @@ PrefabInstance:
     - target: {fileID: 3177020669836509780, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Name
       value: ColorSpere
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1517511529}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: inLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: checkRadius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739605818601719403, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
+      propertyPath: spereIsFire
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5459508532525062091, guid: e7d6b00de5eccdc439af52175a8d51f5, type: 3}
       propertyPath: m_Constraints
